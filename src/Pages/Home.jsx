@@ -10,7 +10,7 @@ import {
   FiArrowRight,
   FiTrendingUp,
 } from "react-icons/fi";
-import pannerHeader from "../../public/header-panner.jpg";
+import pannerHeader from "../../src/assets/header-panner.jpg";
 
 export const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
