@@ -94,7 +94,7 @@ export const About = () => {
       name: "AbdAllah Kamal",
       role: "Full Stack Web Developer",
       image: abdallah,
-      description: "Student at El-Shorouk Academy Faculty of Computer and Information Sciences ",
+      description: "Student at Faculty of Computer and Information Sciences , El-Shorouk Academy ",
     },
     {
       name: "Karim Ehab",
@@ -203,19 +203,16 @@ export const About = () => {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                 <p>
-                  Founded in 2022, EcoShop began as a small passion project with
-                  a big vision: to create an online shopping experience that
-                  puts people and the planet first.
+                  Founded in 2022, EcoShop began with a clear mission: to make sustainable shopping simple, accessible, and inspiring for everyone.
+                  What started as a small collection of eco-friendly products quickly grew into a broader vision to support both people and the planet.
                 </p>
                 <p>
-                  What started as a curated selection of eco-friendly products
-                  has grown into a comprehensive marketplace offering thousands
-                  of quality items across multiple categories.
+                  As EcoShop expanded, it evolved into a trusted marketplace offering a diverse range of high-quality,
+                  planet-friendly items across multiple categories—all carefully selected to promote a more responsible lifestyle.
                 </p>
                 <p>
-                  Today, we're proud to serve customers worldwide while
-                  maintaining our commitment to sustainability, quality, and
-                  exceptional customer service.
+                  Today, we proudly serve customers worldwide while staying true to our core values: sustainability, quality,
+                  and exceptional customer care. We believe that every choice makes a difference, and we’re here to help you make that difference every day.
                 </p>
               </div>
 
@@ -321,7 +318,7 @@ export const About = () => {
               Meet Our Team
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              The passionate people behind EcoShop
+              The People behind EcoShop Web Site
             </p>
           </motion.div>
 
