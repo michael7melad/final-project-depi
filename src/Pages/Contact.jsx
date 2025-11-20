@@ -311,7 +311,7 @@ export const Contact = () => {
               <p>📍 Benha , Egypt</p>
               <p>🕒 Saturday : Thursday 9:00 - 18:00</p>
               <p>🕒 Thursday: 9:00 A.M - 3:00 P.M</p>
-              <p>📞 +20 100 000 0000 </p>
+              <p>📞 +20 100 000 0000</p>
             </div>
           </div>
 
