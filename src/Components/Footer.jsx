@@ -59,9 +59,9 @@ export const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: FiMail, text: "support@ecoshop.com" },
+    { icon: FiMail, text: "ecoshop@gmail.com" },
     { icon: FiPhone, text: "+20 100 000 0000" },
-    { icon: FiMapPin, text: "Cairo, Egypt" },
+    { icon: FiMapPin, text: "Benha , Egypt" },
   ];
 
   return (
@@ -89,9 +89,7 @@ export const Footer = () => {
               </span>
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
-              Your premier destination for sustainable shopping. We offer
-              high-quality products with a commitment to environmental
-              responsibility and customer satisfaction.
+              Committed to delivering high-quality, environmentally responsible products that elevate your lifestyle and protect our planet.
             </p>
 
             {/* Contact Info */}
@@ -167,7 +165,7 @@ export const Footer = () => {
             <div className="mb-4 md:mb-0">
               <h3 className="text-xl font-semibold mb-2">Stay Updated</h3>
               <p className="text-gray-300">
-                Subscribe to our newsletter for the latest updates and offers.
+                Stay with us for the latest updates and offers.
               </p>
             </div>
             <div className="flex space-x-2 w-full md:w-auto">
