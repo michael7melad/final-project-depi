@@ -153,7 +153,7 @@ export const Home = () => {
                 icon: FiTruck,
                 title: "Fast Delivery",
                 description:
-                  "Free shipping on orders over $50. Delivery within 2-3 business days.",
+                  "Free shipping on orders over 10,000 Egyptian pounds. Delivery within 2-3 business days.",
               },
               {
                 icon: FiShield,
@@ -165,7 +165,7 @@ export const Home = () => {
                 icon: FiStar,
                 title: "Quality Guarantee",
                 description:
-                  "30-day money-back guarantee on all our premium products.",
+                  "15-day money-back guarantee on all our premium products.",
               },
             ].map((feature, index) => (
               <motion.div
@@ -324,7 +324,7 @@ export const Home = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold text-white mb-4"
           >
-            Ready to Start Shopping?
+            Are you ready to Start Shopping ???
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
