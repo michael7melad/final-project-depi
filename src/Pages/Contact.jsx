@@ -49,26 +49,26 @@ export const Contact = () => {
     {
       icon: FiMail,
       title: "Email Us",
-      content: "awiby.net@gmail.com",
+      content: "ecoshop@gmail.com",
       subtitle: "We'll reply within 24 hours",
     },
     {
       icon: FiPhone,
       title: "Call Us",
-      content: "+20 103 107 1411",
-      subtitle: "Mon-Fri from 8am to 6pm",
+      content: "+20 100 000 0000",
+      subtitle: "Saturday : Thursday from 9 A.M to 5 P.M",
     },
     {
       icon: FiMapPin,
       title: "Visit Us",
-      content: "Giza, Egypt",
+      content: "Benha , Egypt",
       subtitle: "Visit our headquarters",
     },
     {
       icon: FiClock,
       title: "Business Hours",
-      content: "Mon - Fri: 9:00 - 18:00",
-      subtitle: "Sat: 10:00 - 16:00",
+      content: "Saturday : Thursday 9:00 - 18:00",
+      subtitle: "Thursday: 9:00 - 15:00",
     },
   ];
 
@@ -81,7 +81,7 @@ export const Contact = () => {
     {
       question: "What is your return policy?",
       answer:
-        "We offer 30-day returns for all unused items in original packaging.",
+        "We offer 15-day returns for all unused items in original packaging.",
     },
     {
       question: "Do you ship internationally?",
@@ -177,7 +177,7 @@ export const Contact = () => {
           >
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-lg border border-green-200/50 dark:border-gray-700 p-8">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                Send us a Message
+                Send Us a Message
               </h2>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -199,7 +199,7 @@ export const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         className="w-full pl-10 pr-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                        placeholder="Your full name"
+                        placeholder="Your Full Name"
                       />
                     </div>
                   </div>
@@ -242,7 +242,7 @@ export const Contact = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                    placeholder="What's this about?"
+                    placeholder="What's this About ?"
                   />
                 </div>
 
@@ -263,7 +263,7 @@ export const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       className="w-full pl-10 pr-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white resize-none"
-                      placeholder="Tell us how we can help you..."
+                      placeholder="Tell us How we can help you ..."
                     />
                   </div>
                 </div>
@@ -289,52 +289,10 @@ export const Contact = () => {
                 </motion.button>
 
                 <p className="text-sm text-gray-600 dark:text-gray-300 text-center">
-                  We typically respond within 2-4 business hours
+                  We typically respond within 3:5 Business Hours
                 </p>
               </form>
             </div>
-
-            {/* Google Maps Integration */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
-              className="mt-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-lg border border-green-200/50 dark:border-gray-700 overflow-hidden"
-            >
-              <div className="p-4 border-b border-gray-200 dark:border-gray-700">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white flex items-center">
-                  <FiMapPin className="mr-2 text-green-500" />
-                  Our Location in Giza, Egypt
-                </h3>
-              </div>
-
-              <div className="relative h-80 md:h-96">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27821.079409598096!2d31.23702957290919!3d29.35169312460964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1459939fe744c343%3A0xd3003adaff37ff02!2z2KzYstmK2LHYqSDYp9mE2YXYs9in2LnYr9ip2Iwg2YXYsdmD2LIg2KfZhNmI2KfYs9i32YnYjCDZhdit2KfZgdi42Kkg2KjZhtmKINiz2YjZitmB!5e0!3m2!1sar!2seg!4v1758925406485!5m2!1sar!2seg"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-b-2xl"
-                  title="EcoShop Location in Giza, Egypt"
-                />
-
-                {/* Map Overlay Info */}
-                <div className="absolute bottom-4 left-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg p-3 shadow-lg max-w-xs">
-                  <h4 className="font-semibold text-gray-900 dark:text-white text-sm mb-1">
-                    EcoShop Headquarters
-                  </h4>
-                  <p className="text-xs text-gray-600 dark:text-gray-300">
-                    Giza, Egypt
-                  </p>
-                  <p className="text-xs text-green-600 dark:text-green-400 mt-1">
-                    Open • Closes 6 PM
-                  </p>
-                </div>
-              </div>
-            </motion.div>
           </motion.div>
         </div>
 
@@ -348,9 +306,9 @@ export const Contact = () => {
           <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Visit Our Store</h3>
             <div className="space-y-2 text-green-100">
-              <p>📍 Giza, Egypt</p>
-              <p>🕒 Mon-Fri: 9:00 AM - 6:00 PM</p>
-              <p>🕒 Sat: 10:00 AM - 4:00 PM</p>
+              <p>📍 Benha , Egypt</p>
+              <p>🕒 Saturday : Thursday 9:00 - 18:00</p>
+              <p>🕒 Thursday: 9:00 A.M - 3:00 P.M</p>
               <p>📞 +20 100 000 0000</p>
             </div>
           </div>
@@ -370,7 +328,7 @@ export const Contact = () => {
               </li>
               <li className="flex items-center">
                 <FiCheckCircle className="text-green-500 mr-2" />
-                Easy returns within 30 days
+                Easy returns within 15 days
               </li>
               <li className="flex items-center">
                 <FiCheckCircle className="text-green-500 mr-2" />
@@ -389,10 +347,10 @@ export const Contact = () => {
           <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-2xl border border-green-200 dark:border-green-800 text-center max-w-sm">
             <FiCheckCircle className="text-5xl text-green-500 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-              Message Sent!
+              Message Sent !
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Thank you for contacting us. We'll get back to you soon.
+              Thank you for Contacting Us. We will get back to you soon.
             </p>
           </div>
         </motion.div>
